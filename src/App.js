@@ -24,7 +24,7 @@ export default function App() {
 function Message(props) {
   return (
     <p>
-      You have read <strong>{props.count - 2}</strong> peices of advice
+      You have read <strong>{props.count - 1}</strong> peices of advice
     </p>
   );
 }
